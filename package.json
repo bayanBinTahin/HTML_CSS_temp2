@@ -1,0 +1,14 @@
+{
+    "name": "HTML_CSS_temp2",
+    "version": "1.0.0",
+    "description": "bayanSalem Code",
+    "main": "script.js",
+    "scripts": {
+        "start": "lite-server"
+    },
+    "author": "BayanSalem",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    }
+}
