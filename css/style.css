@@ -193,6 +193,7 @@
                     left: 0;
                     width: 100%;
                     background: rgb(0 0 0 / 50%);
+                    z-index: 100;
                 }
                 header nav .toggle-menu:hover+ul a {
                     padding: 15px;
@@ -569,6 +570,15 @@
                 width: fit-content;
                 text-transform: uppercase;
                 color: white;
+            }
+            
+            @media (max-width:768px) {
+                .vedio .text {
+                    padding: 15px 50px;
+                }
+                .vedio .text p {
+                    margin: 20px auto;
+                }
             }
             /* end vedio */
             /* start about */
